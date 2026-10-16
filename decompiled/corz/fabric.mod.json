@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "donutbalance",
+  "version": "1.0.0+mc1.21.1",
+  "name": "corz client",
+  "description": "Reads DonutSMP player balance from scoreboards/chat and executes configurable commands upon pressing Right Click.",
+  "authors": [
+    "DonutTeam"
+  ],
+  "contact": {
+    "sources": "https://donutsmp.net"
+  },
+  "license": "MIT",
+  "icon": "assets/donutbalance/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.donut.balance.mc121.DonutBalanceMod121"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
